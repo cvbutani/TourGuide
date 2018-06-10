@@ -1,6 +1,8 @@
 package com.example.chirag.tourguide;
 
-public class DataAttraction {
+import java.io.Serializable;
+
+public class DataAttraction implements Serializable {
 
     private String mPlaceName;
     private String mAddress;

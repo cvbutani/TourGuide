@@ -4,11 +4,159 @@
     <string name="title_activity_quebec">Québec City</string>
     <string name="title_activity_attractions">Attractions</string>
     <string name="title_activity_resturant">Restaurant</string>
+    <string name="title_activity_nightlife">NightLife</string>
+    <string name="title_activity_shopping">Shopping</string>
+
+    <!-- MONTREAL ATTRACTION DESCRIPTION -->
+    <string name="mount_royal">Mount Royal (French: Mont Royal) is a large volcanic-related hill or small mountain in the city of Montreal, immediately west of Downtown Montreal, Quebec, Canada. Mount Royal gave its name to Montreal.
+        \n\nThe hill is part of the Monteregian Hills situated between the Laurentians and the Appalachian Mountains. It gave its Latin name, Mons Regius, to the Monteregian chain. The hill consists of three peaks: Colline de la Croix (or Mont Royal proper) at 233 m (764 ft), Colline dOutremont (or Mount Murray, in the borough of Outremont) at 211 m (692 ft), and Westmount Summit at 201 m (659 ft) elevation above mean sea level.
+        \n\nIn June 2017, during the 375th anniversary of Montreal, the city formally renamed the Outremont peak Tiohtià:ke Otsira’kéhne, Mohawk for "the place of the big fire," reflecting how the hill had been used for a fire beacon by First Nations people.</string>
+    <string name="notre_dame_basilica">Notre-Dame Basilica (French: Basilique Notre-Dame de Montréal) is a basilica in the historic district of Old Montreal, in Montreal, Quebec, Canada. The church is located at 110 Notre-Dame Street West, at the corner of Saint Sulpice Street. It is located next to the Saint-Sulpice Seminary and faces the Place dArmes square.
+        \n\nBuilt in the Gothic Revival style, the church is highly decorated. The vaults are coloured deep blue and decorated with golden stars, and the rest of the sanctuary is decorated in blues, azures, reds, purples, silver, and gold. It is filled with hundreds of intricate wooden carvings and several religious statues. Unusual for a church, the stained glass windows along the walls of the sanctuary do not depict biblical scenes, but rather scenes from the religious history of Montreal. It also has a Casavant Frères pipe organ, dated 1891, which comprises four keyboards, 92 stops using electropneumatic action and an adjustable combination system, 7000 individual pipes and a pedal board.</string>
+    <string name="montreal_biodome">The Montreal Biodome (French: Biodôme de Montréal) is a facility located at Olympic Park in the Montreal neighbourhood of Mercier–Hochelaga-Maisonneuve that allows visitors to walk through replicas of four ecosystems found in the Americas. The building was originally constructed for the 1976 Olympic Games as a velodrome. It hosted both track cycling and judo events. Renovations on the building began in 1989 and in 1992 the indoor nature exhibit was opened.</string>
+    <string name="botanical_garden">The Montreal Botanical Garden (French: Jardin botanique de Montréal) is a large botanical garden in Montreal, Quebec, Canada comprising 75 hectares (190 acres) of thematic gardens and greenhouses. It was designated a National Historic Site of Canada in 2008 as it is considered to be one of the most important botanical gardens in the world due to the extent of its collections and facilities.</string>
+    <string name="port_of_montreal">The historical Old Port offers Montrealers and visitors alike access to a wide variety of activities, including the Montréal Science Centre, with an IMAX Theatre, and the Montreal Clock Tower. It offers riverfront access for walking, cycling, roller-blading, quadricycle, pedalo and Segway rentals. Old Montreal Ferris Wheel, on the shore of the Saint Lawrence River. It is also located at the eastern end of the Lachine Canal, which has itself been extensively refurbished as a popular destination for cycling, roller-blading and pleasure boating. Cultural events include the Festival Montréal en lumière, Igloofest and the Matsuri Japon festival.
+        \n\nIn June 2012, an urban beach, called the Plage de l'Horloge (Clock Tower Beach), opened adjacent to the Clock Tower.</string>
+    <string name="olympic_stadium">Olympic Stadium (French: Stade olympique) is a multi-purpose stadium in Canada, located at Olympic Park in the Hochelaga-Maisonneuve district of Montreal. Built in the mid-1970s as the main venue for the 1976 Summer Olympics, it is nicknamed "The Big O", a reference to both its name and to the doughnut-shape of the permanent component of the stadium roof. It is also called "The Big Owe" to reference the astronomical cost of the stadium and the 1976 Olympics as a whole.
+        \n\nThe stadium is the largest by seating capacity in Canada. After the Olympics, artificial turf was installed and it became the home of Montreals professional baseball and football teams. The Montreal Alouettes of the CFL returned to their previous home of Molson Stadium in 1998 for regular season games, but continued to use Olympic Stadium for playoff and Grey Cup games until 2014 when they returned to Molson Stadium for all of their games. Following the 2004 baseball season, the Expos relocated to Washington, D.C. to become the Washington Nationals. The stadium currently serves as a multipurpose facility for special events (e.g. concerts, trade shows) with a permanent seating capacity of 56,040. The capacity is expandable with temporary seating. The Montreal Impact of Major League Soccer (MLS) use the venue on occasion, when demand for tickets justifies the large capacity or when the weather restricts outdoor play at nearby Saputo Stadium in the spring months.
+        \n\nThe stadium has not had a main tenant since the Expos left in 2004. Despite decades of use, the stadiums history of numerous structural and financial problems has largely branded it a white elephant.</string>
+    <string name="royal_park">Inaugurated in 1876, the Mount Royal Park was designed by Frederick Law Olmsted, the highly skilled designer behind New York Central Park. It is an ideal site for admiring a wide variety of plants and birds or for enjoying outdoor activities. Les amis de la montagne offer a variety of services and activities that rovide wonderful opportunities to discover the beauty and wealth of resources that the park has to offer, including the new permanent exhibition at the Maison Smith and interactive terminals and map.</string>
+    <string name="helen_park">Saint Helens Island (French: Île Sainte-Hélène) is an island in the Saint Lawrence River, in the territory of the city of Montreal, Quebec, Canada. It is situated immediately southeast of the Island of Montreal, in the extreme southwest of Quebec. It forms part of the Hochelaga Archipelago. The Le Moyne Channel separates it from Notre Dame Island. Saint Helen Island and Notre Dame Island together make up Parc Jean-Drapeau (formerly Parc des Îles).
+        \n\nIt was named in 1611 by Samuel de Champlain in honour of his wife, Hélène de Champlain, née Boullé. The island belonged to the Le Moyne family of Longueuil from 1665 until 1818, when it was purchased by the British government. A fort, powderhouse and blockhouse were built on the island as defences for the city, in consequence of the War of 1812.</string>
+
+
+    <string name="title_activity_descriptions">Descriptions</string>
+
+    <string name="place_mount_royal">Mount Royal</string>
+    <string name="place_notre_dame_basilica">Notre-Dame Basilica</string>
+    <string name="place_monreal_biodome">Montreal Biodome</string>
+    <string name="place_montreal_botanical_garden">Montreal Botanical Garden</string>
+    <string name="place_port_of_montreal">Old Port of Montreal</string>
+    <string name="place_olympic_stadium">Montreal Olympic Stadium</string>
+    <string name="place_royal_park">Mount Royal Park</string>
+    <string name="place_helen_island">Saint Helen\'s Island</string>
+
+    <string name="address_mount_royal">1260 Remembrance Road, Montreal, Quebec H3H 1A2</string>
+    <string name="address_notre_dame_basilica">110 Notre-Dame St W, Montreal, QC H2Y 1T2</string>
+    <string name="address_montreal_biodome">4777 Pierre-de Coubertin Ave, Montreal, QC H1V 1B3</string>
+    <string name="address_montreal_botanical_garden">4101 Rue Sherbrooke E, Montréal, QC H1X 2B2</string>
+    <string name="address_port_of_montreal">333 Rue de la Commune O, Montréal, QC H2Y 2E2</string>
+    <string name="address_olympic_stadium">4141 Pierre-de Coubertin Ave, Montreal, QC H1V 3N7</string>
+    <string name="address_royal_park">1260 Remembrance Road, Montreal, Quebec H3H 1A2</string>
+    <string name="address_helen_island">St Helen\'s Island, Montreal, QC</string>
+
+    <string name="contact_mount_royal">+1 (514) 843–8240</string>
+    <string name="contact_notre_dame_basilica">+1 (514) 842–2925</string>
+    <string name="contact_montral_botanical_garden">+1 (514) 868–3000</string>
+    <string name="contact_port_of_montreal">+1 (514) 496–7678</string>
+    <string name="contact_montreal_botanical_garden">+1 (514) 868–3000</string>
+    <string name="contact_olympic_stadium">+1 (514) 252–4141</string>
+    <string name="contact_royal_park">+1 (514) 843–8240</string>
+
+    <!-- MONTREAL RESTAURANT DESCRIPTION -->
+    <string name="restaurant_le_damas">Creative Syrian delicacies in a Persian-influenced space with a plant-trimmed terrace.</string>
+    <string name="bouillon_bilk">Modern eclectic cuisine with a French influence served in a bright, minimalist-chic space.</string>
+    <string name="saint_sushi_bar">Innovative sushi rolls are served at this Japanese eatery sporting homey accents and colourful art.</string>
+    <string name="restaurant_le_eueropa">Revered chef Jérôme Ferrer’s inventive French plates and tasting menus in an urbane townhouse setting.</string>
+    <string name="regine_cafe">Upscale, clever breakfast dishes served all day in hip, retro digs with mismatched velvet chairs.</string>
+    <string name="dinette_triple_crown">Snug takeout with stool seating serving Southern comfort foods (packed in baskets in warm months).</string>
+    <string name="cheskie_bulangerie">Snug, understated bakery featuring a variety of Jewish kosher pastries, cakes and other goods.</string>
+    <string name="restaurant_india_oven">Classic Indian tandoori, curries and vegetarian dishes in a BYOB nook with an upbeat atmosphere.</string>
+    <string name="le_club_chasse_et_peche">Romantic lodge setting for Chef Claude Pelletier’s refined Québécois fish and game dishes.</string>
+    <string name="le_taj">Indian classics in an elegant room with a visible tandoori oven, plus a set-price lunch buffet.</string>
+
+    <string name="res_place_damas">Restaurant Le Damas</string>
+    <string name="res_place_bouillon_bilk">Bouillon Bilk</string>
+    <string name="res_place_saint_sushi_bar">Saint Sushi Bar</string>
+    <string name="res_place_europea">Restaurant Le Europea</string>
+    <string name="res_place_regine_cafe">Régine Café</string>
+    <string name="res_place_dinette_triple_crown">Dinette Triple Crown</string>
+    <string name="res_place_cheskie_boulangrie">Cheskie\'s Boulangerie</string>
+    <string name="res_place_india_oven">Restaurant India\'s Oven</string>
+    <string name="res_place_chase_et_peche">Le Club Chasse et Pêche</string>
+    <string name="res_place_le_taj">Le Taj</string>
+
+    <string name="res_address_damas">1201 Ave Van Horne, Outremont, QC H2V 1K4</string>
+    <string name="res_address_bouillon_bilk">1595 St Laurent Blvd, Montréal, QC H2X 2S9</string>
+    <string name="res_address_saint_sushi_bar">424 Avenue Duluth, Montréal H2L 1A3</string>
+    <string name="res_address_europea">1227 de la montagne, Montréal, QC, H3G 1Z2</string>
+    <string name="res_address_regine_cafe">1840 Rue Beaubien Est, Montréal, QC H2G 1L6</string>
+    <string name="res_address_dinette_triple_crown">6704 Rue Clark, Montréal, QC, H2S 3E9</string>
+    <string name="res_address_cheskie_boulangrie">359 bernard ouest, Montréal, QC, H2V 1T6</string>
+    <string name="res_address_india_oven">454 A Rue Jean-Talon Ouest, Montreal, QC H3N 1R3</string>
+    <string name="res_address_chase_et_peche">423, rue St-Claude, Montréal, QC, H2Y 3B6</string>
+    <string name="res_address_le_taj">2077 Stanley St, Montreal, QC H3A 1R7</string>
+
+    <string name="res_contact_damas">+1 (514) 439–5435</string>
+    <string name="res_contact_bouillon_bilk">+1 (514) 845–1595</string>
+    <string name="res_contact_saint_sushi_bar">+1 (514) 507–7537</string>
+    <string name="res_contact_europea">+1 (514) 398–9229</string>
+    <string name="res_contact_regine_cafe">+1 (514) 903–0676</string>
+    <string name="res_contact_dinette_triple_crown">+1 (514) 272–2617</string>
+    <string name="res_contact_cheskie_boulangrie">+1 (514) 271–2253</string>
+    <string name="res_contact_india_oven">+1 (514) 509–8678</string>
+    <string name="res_contact_chase_et_peche">+1 (514) 861–1112</string>
+    <string name="res_contact_le_taj">+1 (514) 845–9015</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nightlife_blvd_des">Sleek, luxurious nightspot inside the Hotel 10 featuring DJs, bottle service and outdoor seating.</string>
+    <string name="nightlife_le_rouge_bar">Sleek 2-story nightspot featuring a DJ-fueled dance floor, bottle service and cozy banquettes.</string>
+    <string name="nightlife_jet_nightclub">Bustling nightclub featuring a full bar and DJs playing hip hop, Latin and other dance music beats.</string>
+    <string name="nightlife_after_hours">Stereo nightclub is an afterhours club in Montreal, Quebec, Canada which primarily features house music and techno. The afterhours section of the club is always open on Fridays and Saturdays.</string>
+    <string name="nightlife_muzique">Posh nightspot featuring 2 dance floors with eclectic DJ–spun beats and a terrace.</string>
+    <string name="nightlife_club_649">SEnergetic, family-run Latin nightclub featuring dance lessons, DJ nights and weekly live music.</string>
+
+    <string name="night_place_blvd">Blvd44</string>
+    <string name="night_place_rouge_bar">Le Rouge Bar</string>
+    <string name="night_place_jet_nightclub">Jet Nightclub</string>
+    <string name="night_place_after_hours">Stereo After Hours</string>
+    <string name="night_place_muzique">Muzique</string>
+    <string name="night_place_club_649">Club 6/49</string>
+
+    <string name="night_address_blvd">2108 St Laurent Blvd, Montreal, QC H2X 2T2</string>
+    <string name="night_address_rouge_bar">7 Prince Arthur St W, Montreal, QC H2X 1S4</string>
+    <string name="night_address_jet_nightclub">2020 Crescent St, Montreal, QC H3G 2B8</string>
+    <string name="night_address_after_hours">858 St Catherine St E, Montreal, QC H2L 2E3</string>
+    <string name="night_address_muzique">3781 St Laurent Blvd, Montreal, QC H2W 1X8</string>
+    <string name="night_address_club_649">1112 Saint-Catherine St W, Montreal, QC H3B 1H4</string>
+
+    <string name="night_contact_blvd">+1 (514) 638–2583</string>
+    <string name="night_contact_rouge_bar">+1 (514) 282–9944</string>
+    <string name="night_contact_jet_nightclub">+1 (514) 288–2888</string>
+    <string name="night_contact_after_hours">+1 (514) 658–2646</string>
+    <string name="night_contact_muzique">+1 (514) 282–2224</string>
+    <string name="night_contact_club_649">+1 (514) 868–1649</string>
+
+    <string name="shopping_centre_eaton">Complexe Les Ailes was a shopping centre located in downtown Montreal, Quebec, Canada at 677 Sainte-Catherine Street West, at the corner of University Street.</string>
+    <string name="shopping_montreal_trust">Place Montreal Trust is a shopping mall in Downtown Montreal, located west of the Eaton Centre, at the corner of Saint Catherine Street and McGill College Avenue.</string>
+    <string name="shopping_promenades">Promenades Cathédrale is a 135,495 square foot retail complex on Saint Catherine Street in downtown Montreal, Quebec, Canada. The complex is located beneath Montreal Anglican Christ Church Cathedral.</string>
+    <string name="shopping_les_cours">Les Cours Mont-Royal is an upscale shopping centre in Downtown Montreal, Quebec, Canada which was converted from the former Mount Royal Hotel. </string>
+    <string name="shopping_complexe_desjardins">Complexe Desjardins is a mixed-use office, hotel, and shopping mall complex located in Montreal, Quebec, Canada. </string>
+    <string name="shopping_ville_marie">Place Ville Marie is a large office and shopping complex in central Montreal, Quebec, Canada, comprising four office buildings and an underground shopping plaza. </string>
+
+    <string name="shop_place_centre_eaton">Le Centre Eaton de Montréal</string>
+    <string name="shop_place_montreal_trust">Place Montreal Trust</string>
+    <string name="shop_place_promenades">Promenades Cathédrale</string>
+    <string name="shop_place_les_cours">Les Cours Mont-Royal</string>
+    <string name="shop_place_complexe_desjardins">Complexe Desjardins</string>
+    <string name="shop_place_ville_marie">Place Ville Marie</string>
+
+    <string name="shop_address_centre_eaton">705 Saint-Catherine St W, Montreal, QC H3B 4G5</string>
+    <string name="shop_address_montreal_trust">1500 ave, McGill College Ave, Montreal, Quebec H3A 3J5</string>
+    <string name="shop_address_promenades">625 Saint-Catherine St W, Montreal, QC H3B 1B7</string>
+    <string name="shop_address_les_cours">1455 Peel St, Montreal, QC H3A 1T5</string>
+    <string name="shop_address_complexe_desjardins">150 Saint-Catherine St W, Montreal, QC H2X 3Y2</string>
+    <string name="shop_address_ville_marie">1 Place Ville Marie, Montreal, QC H3B 2B6</string>
+
+    <string name="shop_contact_centre_eaton">+1 (514) 288–3708</string>
+    <string name="shop_contact_montreal_trust">+1 (514) 843–8000</string>
+    <string name="shop_contact_promenades">+1 (514) 845–8230</string>
+    <string name="shop_contact_les_cours">+1 (514) 842–7777</string>
+    <string name="shop_contact_complexe_desjardins">+1 (514) 845–4636</string>
+    <string name="shop_contact_ville_marie">+1 (514) 861–5217</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="montreal">Mount Royal (French: Mont Royal) is a large volcanic-related hill or small mountain in the city of Montreal, immediately west of Downtown Montreal, Quebec, Canada. Mount Royal gave its name to Montreal.
-        \n\nThe hill is part of the Monteregian Hills situated between the Laurentians and the Appalachian Mountains. It gave its Latin name, Mons Regius, to the Monteregian chain. The hill consists of three peaks: Colline de la Croix (or Mont Royal proper) at 233 m (764 ft), Colline dOutremont (or Mount Murray, in the borough of Outremont) at 211 m (692 ft), and Westmount Summit at 201 m (659 ft) elevation above mean sea level.
-        \n\nIn June 2017, during the 375th anniversary of Montreal, the city formally renamed the Outremont peak Tiohtià:ke Otsira’kéhne, Mohawk for "the place of the big fire," reflecting how the hill had been used for a fire beacon by First Nations people.</string>
-    <string name="title_activity_descriptions">Descriptions</string>
+
 </resources>

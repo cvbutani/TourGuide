@@ -8,7 +8,9 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.example.chirag.tourguide.MontrealGuide.AttractionsFragment;
 
+import com.example.chirag.tourguide.MontrealGuide.NightlifeFragmnet;
 import com.example.chirag.tourguide.MontrealGuide.ResturantFragment;
+import com.example.chirag.tourguide.MontrealGuide.ShoppingFragment;
 
 public class PageAdapter extends FragmentPagerAdapter {
 
@@ -21,25 +23,34 @@ public class PageAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position ==0){
+        if (position == 0) {
             return new AttractionsFragment();
-        } else {
+        } else if (position == 1) {
             return new ResturantFragment();
+        } else if (position == 2) {
+            return new ShoppingFragment();
+        } else {
+            return new NightlifeFragmnet();
         }
     }
 
     @Override
     public int getCount() {
-        return 2;
+        return 4;
     }
 
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        if(position ==0) {
+        if (position == 0) {
             return mContext.getString(R.string.title_activity_attractions);
-        } else {
+        } else if (position == 1) {
             return mContext.getString(R.string.title_activity_resturant);
+        } else if (position == 2) {
+            return mContext.getString(R.string.title_activity_shopping);
+        }
+        else {
+            return mContext.getString(R.string.title_activity_nightlife);
         }
     }
 }

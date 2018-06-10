@@ -1,4 +1,4 @@
-package com.example.chirag.tourguide.MontrealGuide;
+package com.example.chirag.tourguide.QuebecGuide;
 
 
 import android.content.Intent;

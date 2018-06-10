@@ -17,7 +17,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:scaleType="centerCrop"
-        tools:src="@drawable/mountroyal" />
+        tools:src="@drawable/mtroyal" />
 
     <RelativeLayout
         android:layout_width="match_parent"

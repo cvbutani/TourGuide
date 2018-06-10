@@ -33,7 +33,7 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".MontrealGuide.AttractionsActivity"
+            android:name=".MontrealGuide.MontrealDisplayActivity"
             android:label="@string/title_activity_attractions"
             android:parentActivityName=".MontrealActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -42,24 +42,22 @@
                 android:value="com.example.chirag.tourguide.MontrealActivity" />
         </activity>
         <activity
-            android:name=".MontrealGuide.ResturantActivity"
-            android:label="@string/title_activity_resturant"
+            android:name=".QuebecGuide.QuebecDisplayActivity"
+            android:label="@string/title_activity_attractions"
             android:parentActivityName=".MontrealActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.chirag.tourguide.MontrealActivity" />
+                android:value="com.example.chirag.tourguide.QuebecActivity" />
         </activity>
         <activity
             android:name=".DescriptionActivity"
             android:label="@string/title_activity_attractions"
-            android:parentActivityName=".MontrealGuide.AttractionsActivity">
+            android:parentActivityName=".MontrealGuide.MontrealDisplayActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.chirag.tourguide.MontrealGuide.AttractionsActivity" />
+                android:value="com.example.chirag.tourguide.MontrealGuide.MontrealDisplayActivity" />
         </activity>
-
-
     </application>
 
 </manifest>

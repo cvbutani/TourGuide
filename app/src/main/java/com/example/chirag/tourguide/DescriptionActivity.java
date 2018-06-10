@@ -1,44 +1,42 @@
 package com.example.chirag.tourguide;
 
 import android.os.Bundle;
+
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
+
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
 public class DescriptionActivity extends AppCompatActivity {
 
-    private Bundle bundle;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_description);
 
-        bundle = getIntent().getExtras();
+        if(!getIntent().hasExtra("data")) return;
 
-        setTitle(getString(R.string.title_activity_attractions));
+        DataAttraction attraction = (DataAttraction) getIntent().getSerializableExtra("data");
 
         ImageView image = findViewById(R.id.montreal_image);
-        image.setImageResource(bundle.getInt(BundlePair.PLACE_IMAGE));
+        image.setImageResource(attraction.getmImageResourceId());
 
         TextView name = findViewById(R.id.text_view_new);
-        name.setText(bundle.getString(BundlePair.PLACE_NAME));
+        name.setText(attraction.getmPlaceName());
 
         TextView contact = findViewById(R.id.des_phone);
-        contact.setText(bundle.getString(BundlePair.PLACE_PHONE));
+        contact.setText(attraction.getmContact());
 
         TextView address = findViewById(R.id.des_address);
-        address.setText(bundle.getString(BundlePair.PLACE_ADDRESS));
+        address.setText(attraction.getmAddress());
 
         TextView description = findViewById(R.id.description);
-        description.setText(bundle.getInt(BundlePair.PLACE_DESCRIPTION));
+        description.setText(attraction.getmDescription());
 
         RatingBar ratingBar = findViewById(R.id.des_rating);
-        ratingBar.setRating((float)bundle.getDouble(BundlePair.PLACE_RATING));
-
+        ratingBar.setRating((float)attraction.getmRating());
 
     }
 }
