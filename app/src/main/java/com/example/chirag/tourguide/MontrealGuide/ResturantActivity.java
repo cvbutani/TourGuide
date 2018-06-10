@@ -16,7 +16,7 @@ public class ResturantActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resturant);
         getSupportFragmentManager().beginTransaction()
-                .replace(R.id.resturant_layout, new AttractionsFragment())
+                .replace(R.id.list, new AttractionsFragment())
                 .commit();
     }
 

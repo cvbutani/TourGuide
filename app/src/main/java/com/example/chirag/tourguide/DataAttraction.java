@@ -7,13 +7,15 @@ public class DataAttraction {
     private double mRating;
     private String mContact;
     private int mImageResourceId;
+    private int mDescription;
 
-    public DataAttraction(String mPlaceName, String mAddress, double mRating, String mContact, int imageResource) {
+    public DataAttraction(String mPlaceName, String mAddress, double mRating, String mContact, int imageResource, int description) {
         this.mPlaceName = mPlaceName;
         this.mAddress = mAddress;
         this.mRating = mRating;
         this.mContact = mContact;
         this.mImageResourceId= imageResource;
+        this.mDescription = description;
     }
 
     public String getmPlaceName() {
@@ -34,5 +36,9 @@ public class DataAttraction {
 
     public int getmImageResourceId() {
         return mImageResourceId;
+    }
+
+    public int getmDescription() {
+        return mDescription;
     }
 }

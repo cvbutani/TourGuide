@@ -1,56 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/montreal_image"
-        android:layout_width="wrap_content"
-        android:layout_height="230dp"
-        android:scaleType="centerCrop"
-        tools:src="@drawable/montreal" />
-
     <RelativeLayout
+        android:id="@+id/relative_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/montreal_image"
         android:padding="16dp">
 
+        <ImageView
+            android:id="@+id/montreal_image"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/montreal" />
+
+
         <TextView
-            android:id="@+id/text_view"
+            android:id="@+id/text_view_new"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/montreal_image"
             android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/map_icon"
+            android:layout_toRightOf="@+id/map_icon"
             android:textColor="@android:color/black"
             android:textSize="30sp"
             android:textStyle="bold"
             tools:text="Mount Royal" />
 
         <RatingBar
+            android:id="@+id/des_rating"
             style="?android:attr/ratingBarStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/text_view_new"
+            android:layout_alignStart="@+id/text_view_new"
+            android:layout_below="@+id/text_view_new"
             android:layout_gravity="center"
+            android:layout_marginTop="8dp"
             tools:rating="4.5" />
 
+        <ImageView
+            android:id="@+id/phone_icon"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignLeft="@+id/map_icon"
+            android:layout_alignStart="@+id/map_icon"
+            android:layout_below="@+id/map_icon"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/call" />
+
+        <ImageView
+            android:id="@+id/map_icon"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_below="@+id/des_rating"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/map" />
+
         <TextView
-            android:id="@+id/address"
+            android:id="@+id/des_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/text_view"
+            android:layout_alignLeft="@+id/text_view_new"
+            android:layout_alignStart="@+id/text_view_new"
+            android:layout_below="@+id/des_rating"
+            android:layout_marginTop="11dp"
+            android:textSize="16sp"
             tools:text="1260 Remembrance Road, Montreal, Quebec H3H 1A2" />
 
         <TextView
-            android:id="@+id/phone"
+            android:id="@+id/des_phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/address"
+            android:layout_below="@+id/des_address"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/phone_icon"
+            android:layout_toRightOf="@+id/phone_icon"
+            android:textSize="16sp"
             tools:text="+1 514-843-8240" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/des_phone"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/phone_icon"
+            android:layout_toRightOf="@+id/phone_icon"
+            android:textSize="16sp" />
 
     </RelativeLayout>
 
-
-</RelativeLayout>
+</ScrollView>

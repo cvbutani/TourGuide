@@ -17,6 +17,6 @@ public class AttractionsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_category);
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.list, new AttractionsFragment())
-                        .commit();
+                .commit();
     }
 }

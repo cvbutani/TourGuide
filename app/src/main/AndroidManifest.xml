@@ -50,6 +50,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.chirag.tourguide.MontrealActivity" />
         </activity>
+        <activity
+            android:name=".DescriptionActivity"
+            android:label="@string/title_activity_attractions"
+            android:parentActivityName=".MontrealGuide.AttractionsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.chirag.tourguide.MontrealGuide.AttractionsActivity" />
+        </activity>
+
+
     </application>
 
 </manifest>

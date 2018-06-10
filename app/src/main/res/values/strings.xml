@@ -3,8 +3,12 @@
     <string name="title_activity_montreal">Montréal</string>
     <string name="title_activity_quebec">Québec City</string>
     <string name="title_activity_attractions">Attractions</string>
-    <string name="title_activity_resturant">Resturants</string>
+    <string name="title_activity_resturant">Restaurant</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="montreal">Mount Royal (French: Mont Royal) is a large volcanic-related hill or small mountain in the city of Montreal, immediately west of Downtown Montreal, Quebec, Canada. Mount Royal gave its name to Montreal.
+        \n\nThe hill is part of the Monteregian Hills situated between the Laurentians and the Appalachian Mountains. It gave its Latin name, Mons Regius, to the Monteregian chain. The hill consists of three peaks: Colline de la Croix (or Mont Royal proper) at 233 m (764 ft), Colline dOutremont (or Mount Murray, in the borough of Outremont) at 211 m (692 ft), and Westmount Summit at 201 m (659 ft) elevation above mean sea level.
+        \n\nIn June 2017, during the 375th anniversary of Montreal, the city formally renamed the Outremont peak Tiohtià:ke Otsira’kéhne, Mohawk for "the place of the big fire," reflecting how the hill had been used for a fire beacon by First Nations people.</string>
+    <string name="title_activity_descriptions">Descriptions</string>
 </resources>
