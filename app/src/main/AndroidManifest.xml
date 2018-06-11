@@ -34,7 +34,6 @@
         </activity>
         <activity
             android:name=".MontrealGuide.MontrealDisplayActivity"
-            android:label="@string/title_activity_attractions"
             android:parentActivityName=".MontrealActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -43,7 +42,6 @@
         </activity>
         <activity
             android:name=".QuebecGuide.QuebecDisplayActivity"
-            android:label="@string/title_activity_attractions"
             android:parentActivityName=".MontrealActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -52,7 +50,6 @@
         </activity>
         <activity
             android:name=".DescriptionActivity"
-            android:label="@string/title_activity_attractions"
             android:parentActivityName=".MontrealGuide.MontrealDisplayActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

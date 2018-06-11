@@ -1,13 +1,14 @@
 package com.example.chirag.tourguide;
 
 import android.content.Context;
+
 import android.support.annotation.Nullable;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.example.chirag.tourguide.MontrealGuide.AttractionsFragment;
-
 import com.example.chirag.tourguide.MontrealGuide.NightlifeFragmnet;
 import com.example.chirag.tourguide.MontrealGuide.ResturantFragment;
 import com.example.chirag.tourguide.MontrealGuide.ShoppingFragment;
@@ -15,6 +16,7 @@ import com.example.chirag.tourguide.MontrealGuide.ShoppingFragment;
 public class PageAdapter extends FragmentPagerAdapter {
 
     private Context mContext;
+    private String mClassName;
 
     public PageAdapter(Context context, FragmentManager fm) {
         super(fm);
@@ -23,14 +25,27 @@ public class PageAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new AttractionsFragment();
-        } else if (position == 1) {
-            return new ResturantFragment();
-        } else if (position == 2) {
-            return new ShoppingFragment();
+        mClassName = mContext.getClass().getSimpleName();
+        if(mClassName.equals("MontrealActivity")){
+            if (position == 0) {
+                return new AttractionsFragment();
+            } else if (position == 1) {
+                return new ResturantFragment();
+            } else if (position == 2) {
+                return new ShoppingFragment();
+            } else {
+                return new NightlifeFragmnet();
+            }
         } else {
-            return new NightlifeFragmnet();
+            if (position == 0) {
+                return new com.example.chirag.tourguide.QuebecGuide.AttractionsFragment();
+            } else if (position == 1) {
+                return new com.example.chirag.tourguide.QuebecGuide.ResturantFragment();
+            } else if (position == 2) {
+                return new com.example.chirag.tourguide.QuebecGuide.ShoppingFragment();
+            } else {
+                return new com.example.chirag.tourguide.QuebecGuide.NightlifeFragmnet();
+            }
         }
     }
 
@@ -48,8 +63,7 @@ public class PageAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.title_activity_resturant);
         } else if (position == 2) {
             return mContext.getString(R.string.title_activity_shopping);
-        }
-        else {
+        } else {
             return mContext.getString(R.string.title_activity_nightlife);
         }
     }

@@ -24,7 +24,6 @@
     <string name="helen_park">Saint Helens Island (French: Île Sainte-Hélène) is an island in the Saint Lawrence River, in the territory of the city of Montreal, Quebec, Canada. It is situated immediately southeast of the Island of Montreal, in the extreme southwest of Quebec. It forms part of the Hochelaga Archipelago. The Le Moyne Channel separates it from Notre Dame Island. Saint Helen Island and Notre Dame Island together make up Parc Jean-Drapeau (formerly Parc des Îles).
         \n\nIt was named in 1611 by Samuel de Champlain in honour of his wife, Hélène de Champlain, née Boullé. The island belonged to the Le Moyne family of Longueuil from 1665 until 1818, when it was purchased by the British government. A fort, powderhouse and blockhouse were built on the island as defences for the city, in consequence of the War of 1812.</string>
 
-
     <string name="title_activity_descriptions">Descriptions</string>
 
     <string name="place_mount_royal">Mount Royal</string>
@@ -156,7 +155,132 @@
     <string name="shop_contact_complexe_desjardins">+1 (514) 845–4636</string>
     <string name="shop_contact_ville_marie">+1 (514) 861–5217</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--QUEBEC CITY DESCRIPTIONS-->
 
+    <string name="attraction_chateau_fortenac">Historic, high-end hotel offering plush quarters, plus fine dining, a spa, a wine bar and river views.
+    \n\nIt was designated a National Historic Site of Canada in 1980.
+    \n\nPrior to the building of the hotel, the site was occupied by the Château Haldimand, residence of the British colonial governors of Lower Canada and Quebec. The hotel is generally recognized as the most photographed hotel in the world, largely for its prominence in the skyline of Quebec City.</string>
+    <string name="attraction_montmorency_falls">The falls are located on the boundary between the borough of Beauport, and Boischatel, about 12 km (7.5 mi) from the heart of old Quebec City. The area surrounding the falls is protected within the Montmorency Falls Park (French: Parc de la Chute-Montmorency). The falls are at the mouth of the Montmorency River where it drops over the cliff shore into the Saint Lawrence River, opposite the western end of the Île dOrleans.</string>
+    <string name="attraction_citadelle_quebec">The Citadelle of Quebec, also known as La Citadelle, is an active military installation and official residence of both the Canadian monarch and the Governor General of Canada.</string>
+    <string name="attraction_petit_champlain">Petit Champlain is a neighbourhood in Quebec City, Canada. It is located in the district of Vieux-Québec–Cap-Blanc–colline Parlementaire in the borough of La Cité-Limoilou, near Place Royale.</string>
+    <string name="attraction_plains_abraham">The Plains of Abraham (French: Plaines dAbraham) is a historic area within The Battlefields Park in Quebec City, Quebec, Canada. The land is the site of the Battle of the Plains of Abraham, which took place on 13 September 1759, but hundreds of acres of the fields became used for grazing, housing, and minor industrial structures.[2] Only in 1908 was the land ceded to Quebec City, though administered by the specifically created and federally-run National Battlefields Commission. The park is today used by 4 million visitors and tourists annually for sports, relaxation, outdoor concerts, and festivals.</string>
+    <string name="attraction_muse_civilisation">The Musée de la civilisation à Québec (Museum of Civilization) is a museum located in Quebec City, Quebec, Canada. It is situated in the historic Old Quebec area near the Saint Lawrence River. It was designed by architect Moshe Safdie, and opened its doors to the public on 19 December 1988.
+            \n\nThe previous buildings of the Banque de Paris and the Maison Estèbe, which were situated on Saint-Pierre street, were integrated in the museum structure. Permanent and temporary exhibitions are held at the museum, usually related to humanities, and virtual exhibitions are also available. The institution also hosts Quartier des découvertes (Discovery Zone), geared towards children, and offers other services such as guided visits, a French America reference centre, shows, souvenir boutiques, a cafeteria, and a leisure room.</string>
+    <string name="attraction_battlefiels_park">The Battlefields Park includes the Plains of Abraham with Des Braves Park, both within Quebec City, and forms one of the few Canadian national urban parks. Its significance lies in the Battle of the Plains of Abraham, the British victory over France, which decided the development of Canada. Established as a park by law on March 17, 1908, it features an interpretive centre and walking trails, and is sometimes used for outdoor concerts, especially during the national festival events. The park contains a collection of about 50 historical artillery pieces scattered about its grounds. It is managed by the National Battlefields Commission, a federal government agency under the Minister of Canadian Heritage with members appointed by the Queen in her Canadian, Ontarian, and Québécois Councils. The commission also oversees its own police service since 1948.</string>
+    <string name="attraction_aquarium_quebec">Aquarium du Québec is a public aquarium located in the former city of Sainte-Foy in Quebec City, Quebec, Canada. The 16-hectare facility is home to more than 10,000 animals representing more than 300 species.</string>
+    <string name="attraction_beaus_arts">The Musée national des beaux-arts du Québec is a museum in Quebec City, Quebec, Canada gathering approximately 25,000 works essentially produced in Quebec, or by Quebec artists, some of which date from the 18th century.</string>
+
+    <string name="attr_place_chateau_fortenac">Château Frontenac</string>
+    <string name="attr_place_montmorency_falls">Montmorency Falls</string>
+    <string name="attr_place_citadelle_quebec">Citadelle of Quebec</string>
+    <string name="attr_place_petit_champlain">Petit Champlain</string>
+    <string name="attr_place_plains_abraham">Plains of Abraham</string>
+    <string name="attr_place_muse_civilisation">Musée de la civilisation</string>
+    <string name="attr_place_battlefiels_park">The Battlefields Park</string>
+    <string name="attr_place_aquarium_quebec">Aquarium du Québec</string>
+    <string name="attr_place_beaus_arts">Musée national des beaux-arts du Québec</string>
+
+    <string name="attr_address_chateau_fortenac">1 Rue des Carrières, Québec, QC G1R 4P5</string>
+    <string name="attr_address_montmorency_falls">5300 Boulevard Sainte-Anne, Québec, QC G1C 1S1</string>
+    <string name="attr_address_citadelle_quebec">1 Côte de la Citadelle, Québec, QC G1R 3R2</string>
+    <string name="attr_address_petit_champlain">61 Rue du Petit Champlain, Québec, QC G1K 4H5</string>
+    <string name="attr_address_plains_abraham">Wilfred-Laurier Ave, Québec City, QC G1R 2L3</string>
+    <string name="attr_address_muse_civilisation">85 Rue Dalhousie, Québec, QC G1K 8R2</string>
+    <string name="attr_address_battlefiels_park">835 Wilfred-Laurier Ave, Québec City, QC G1R 2L3</string>
+    <string name="attr_address_aquarium_quebec">1675 Avenue des Hôtels, Québec, QC G1W 4S3</string>
+    <string name="attr_address_beaus_arts">179 Grande Allée Ouest, Québec, QC G1R 2H1</string>
+
+    <string name="attr_contact_chateau_fortenac">+1 (418) 692–3861</string>
+    <string name="attr_contact_montmorency_falls">+1 (844)522–4883</string>
+    <string name="attr_contact_citadelle_quebec">+1 (418) 694–2815</string>
+    <string name="attr_contact_petit_champlain">+1 (418) 692–2613</string>
+    <string name="attr_contact_plains_abraham">+1 (418) 648–3506</string>
+    <string name="attr_contact_muse_civilisation">+1 (418) 643–2158</string>
+    <string name="attr_contact_battlefiels_park">+1 (418) 649–6157</string>
+    <string name="attr_contact_aquarium_quebec">+1 (418) 659–5264</string>
+    <string name="attr_contact_beaus_arts">+1 (418) 643–2150</string>
+
+    <string name="restaurant_legende">Stylish, upscale venue featuring seasonal Canadian dishes, tasting menus, wine pairings and a patio.</string>
+    <string name="restaurant_saint_amour">Acclaimed institution offering refined French cuisine, including tasting menus, in a romantic space.</string>
+    <string name="restaurant_toast">Intimate eatery at Hotel Le Priori with upscale French cuisine and a charming indoor courtyard.</string>
+    <string name="restaurant_le_continental">A special-occasion destination for classic French cuisine, with flambé meals prepared tableside.</string>
+    <string name="restaurant_anciens_canadiens">Housed in a historic home, this popular spot offers gourmet Quebec cuisine in quaint surrounds.</string>
+    <string name="restaurant_sss">Intimate establishment offering a range of modern European dishes and cocktails in a stylish interior.</string>
+
+    <string name="res_place_legende">Légende</string>
+    <string name="res_place_saint_amour">Le Saint-Amour</string>
+    <string name="res_place_toast">Le Toast</string>
+    <string name="res_place_le_continental">Restaurant Le Continental</string>
+    <string name="res_place_anciens_canadiens">Aux Anciens Canadiens</string>
+    <string name="res_place_sss">SSS</string>
+
+    <string name="res_address_legende">255 Rue Saint-Paul, Québec, QC G1K 3W5</string>
+    <string name="res_address_saint_amour">48 Rue Sainte-Ursule, Québec, QC G1R 4E2</string>
+    <string name="res_address_toast">17 Rue du Sault-au-Matelot, Québec, QC G1K 3Y7</string>
+    <string name="res_address_le_continental">26 Rue Saint Louis, Québec, QC G1R 3Y9</string>
+    <string name="res_address_anciens_canadiens">34 Rue Saint Louis, Québec, QC G1R 4P3</string>
+    <string name="res_address_sss">71 Rue Saint-Paul, Québec, QC G1K 3V8</string>
+
+    <string name="res_contact_legende">+1 (418) 614–2555</string>
+    <string name="res_contact_saint_amour">+1 (418) 694–0667</string>
+    <string name="res_contact_toast">+1 (418) 692–1334</string>
+    <string name="res_contact_le_continental">+1 (418) 694–9995</string>
+    <string name="res_contact_anciens_canadiens">+1 (418) 692–1627</string>
+    <string name="res_contact_sss">+1 (418) 692–1991</string>
+
+    <string name="nightlife_drague_club">Long-time dance club offering cocktails, DJs, drag shows and karaoke in a boisterous atmosphere.</string>
+    <string name="nightlife_bar_sacrilege">Charming pub with church pew seats and mosaic tables featuring regional brews and an artsy patio space.</string>
+    <string name="nightlife_foubar">Neighbourhood pub offering draft brews and frequent live music in a cozy, relaxed space.</string>
+    <string name="nightlife_la_piazz">Charming pub with church pew seats and mosaic tables featuring regional brews and an artsy patio space.</string>
+    <string name="nightlife_bar_ste_angele">CNeighbourhood pub offering draft brews and frequent live music in a cozy, relaxed space.</string>
+    <string name="nightlife_societe_cigare">Ouvert tous les jours, la Société Cigare se démarque par son Service et par sa Sélection de Cigares et de Scotch. </string>
+
+    <string name="night_place_drague_club">Le Drague Cabaret Club</string>
+    <string name="night_place_bar_sacrilege">Bar Le Sacrilège</string>
+    <string name="night_place_foubar">Fou-Bar</string>
+    <string name="night_place_la_piazz">La Piazz</string>
+    <string name="night_place_bar_ste_angele">Bar Ste-Angèle</string>
+    <string name="night_place_societe_cigare">Société Cigare</string>
+
+    <string name="night_address_drague_club">815 Rue Saint-Augustin, Québec, QC G1R 3N4</string>
+    <string name="night_address_bar_sacrilege">447 Rue Saint-Jean, Québec, QC G1R 1P5</string>
+    <string name="night_address_foubar">525 Rue Saint-Jean, Québec, QC G1R 1P5</string>
+    <string name="night_address_la_piazz">1, 641 Grande Allée E, Québec City, Quebec G1R 2K4</string>
+    <string name="night_address_bar_ste_angele">26 Rue Sainte Angèle, Québec, QC G1R 4G4</string>
+    <string name="night_address_societe_cigare">575 Grande Allée E SUITE 130, Québec, QC G1R 2K5</string>
+
+    <string name="night_contact_drague_club">+1 (418) 649–7212</string>
+    <string name="night_contact_bar_sacrilege">+1 (418) 649–1985</string>
+    <string name="night_contact_foubar">+1 (418) 522–1987</string>
+    <string name="night_contact_la_piazz">+1 (418) 523–4774</string>
+    <string name="night_contact_bar_ste_angele">+1 (418) 692–2171</string>
+    <string name="night_contact_societe_cigare">+1 (418) 647–2000</string>
+
+    <string name="shopping_galeries_capitale">Galeries de la Capitale is a shopping mall located in the Lebourgneuf neighbourhood of Les Rivières borough, in Quebec City, Quebec, Canada. Les Galeries de la Capitale has 280 stores and 35 restaurants</string>
+    <string name="shopping_laurier_quebec">Laurier Québec is one of Canada largest shopping malls. It is located in Quebec City, Quebec. Though Galeries de la Capitale is the largest mall in the city in terms of area, Laurier Quebec is the largest by number of tenants</string>
+    <string name="shopping_quartier_champlain">Petit Champlain is a neighbourhood in Quebec City, Canada. It is located in the district of Vieux-Québec–Cap-Blanc–colline Parlementaire in the borough of La Cité-Limoilou, near Place Royale.</string>
+    <string name="shopping_stefoy">Place Sainte-Foy is an upscale shopping mall located in Quebec City, Quebec, Canada. It is owned by Ivanhoé Cambridge. The anchors are Simons, Signature Maurice Tanguay, Metro, Saks Off 5th and Archambault.</string>
+    <string name="shopping_da_la_cite">With its boutiques featuring designer clothes and accessories—and its store windows showcasing both Québec and international creations, Place de la Cité is the shopping destination of choice for fashion lovers. Located at the entrance of the Québec City and at the centre of major roadways, Place de la Cité offers the most complete shopping experience possible, thanks to its unique boutiques, gourmet shops, and wide variety of services. Whether you are looking to savour a romantic meal, wind down during cocktail hour, eat on the go during a major shopping spree, or recharge your batteries with gourmet products, the Espace Marché et Resto is sure to please any palate.</string>
+    <string name="shopping_benjo">Established in 2004 and located in the heart of Nouvo St-Roch in Quebec City, Benjo brings out the magic and wonder in everyone who visits our store. We want to make you laugh, smile, dream, feel inspired and bring you joy, in all shapes and sizes.</string>
+
+    <string name="shop_place_galeries_capitale">Galeries de la Capitale</string>
+    <string name="shop_place_laurier_quebec">Laurier Québec</string>
+    <string name="shop_place_quartier_champlain">Quartier Petit Champlain</string>
+    <string name="shop_place_stefoy">Place Sainte-Foy</string>
+    <string name="shop_place_da_la_cite">Place de la Cité</string>
+    <string name="shop_place_benjo">Benjo</string>
+
+    <string name="shop_address_galeries_capitale">5401 Boulevard des Galeries, Québec, QC G2K 1N4</string>
+    <string name="shop_address_laurier_quebec">2700 Boulevard Laurier, Québec, QC G1V 2L8</string>
+    <string name="shop_address_quartier_champlain">61 Rue du Petit Champlain, Québec, QC G1K 4H5</string>
+    <string name="shop_address_stefoy">2450 Boulevard Laurier, Québec, QC G1V 2L1</string>
+    <string name="shop_address_da_la_cite">2600 Boulevard Laurier, Québec, QC G1V 4T3</string>
+    <string name="shop_address_benjo">550 Boulevard Charest E, Québec, QC G1K 3J3</string>
+
+    <string name="shop_contact_galeries_capitale">+1 (418) 627–5800</string>
+    <string name="shop_contact_laurier_quebec">+1 (418) 651–5000</string>
+    <string name="shop_contact_quartier_champlain">+1 (418) 692–2613</string>
+    <string name="shop_contact_stefoy">+1 (418) 653–4184</string>
+    <string name="shop_contact_da_la_cite">+1 (418) 657–6920</string>
+    <string name="shop_contact_benjo">+1 (418) 640–0001</string>
 </resources>

@@ -37,47 +37,47 @@ public class ShoppingFragment extends Fragment {
         final ArrayList<DataAttraction> dataAttractions = new ArrayList<>();
 
         dataAttractions.add(new DataAttraction(
-                getString(R.string.shop_place_centre_eaton),
-                getString(R.string.shop_address_centre_eaton),
-                4.2,
-                getString(R.string.shop_contact_centre_eaton),
-                R.drawable.eatoncenter,
-                R.string.shopping_centre_eaton));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.shop_place_montreal_trust),
-                getString(R.string.shop_address_montreal_trust),
-                4.1,
-                getString(R.string.shop_contact_montreal_trust),
-                R.drawable.montrealtrust,
-                R.string.shopping_montreal_trust));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.shop_place_promenades),
-                getString(R.string.shop_address_promenades),
-                4.0,
-                getString(R.string.shop_contact_promenades),
-                R.drawable.promenades,
-                R.string.shopping_promenades));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.shop_place_les_cours),
-                getString(R.string.shop_address_les_cours),
-                4.0,
-                getString(R.string.shop_contact_les_cours),
-                R.drawable.lescours,
-                R.string.shopping_les_cours));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.shop_place_complexe_desjardins),
-                getString(R.string.shop_address_complexe_desjardins),
+                getString(R.string.shop_place_galeries_capitale),
+                getString(R.string.shop_address_galeries_capitale),
                 4.3,
-                getString(R.string.shop_contact_complexe_desjardins),
-                R.drawable.complexedesjardins,
-                R.string.shopping_complexe_desjardins));
+                getString(R.string.shop_contact_galeries_capitale),
+                R.drawable.galeriescapitale,
+                R.string.shopping_galeries_capitale));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.shop_place_ville_marie),
-                getString(R.string.shop_address_ville_marie),
-                4.2,
-                getString(R.string.shop_contact_ville_marie),
-                R.drawable.villemarie,
-                R.string.shopping_ville_marie));
+                getString(R.string.shop_place_laurier_quebec),
+                getString(R.string.shop_address_laurier_quebec),
+                4.4,
+                getString(R.string.shop_contact_laurier_quebec),
+                R.drawable.laurierquebec,
+                R.string.shopping_laurier_quebec));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.shop_place_quartier_champlain),
+                getString(R.string.shop_address_quartier_champlain),
+                4.7,
+                getString(R.string.shop_contact_quartier_champlain),
+                R.drawable.quartuerpetit,
+                R.string.shopping_quartier_champlain));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.shop_place_stefoy),
+                getString(R.string.shop_address_stefoy),
+                4.4,
+                getString(R.string.shop_contact_stefoy),
+                R.drawable.stefoy,
+                R.string.shopping_stefoy));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.shop_place_da_la_cite),
+                getString(R.string.shop_address_da_la_cite),
+                4.1,
+                getString(R.string.shop_contact_da_la_cite),
+                R.drawable.delacite,
+                R.string.shopping_da_la_cite));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.shop_place_benjo),
+                getString(R.string.shop_address_benjo),
+                4.6,
+                getString(R.string.shop_contact_benjo),
+                R.drawable.benjo,
+                R.string.shopping_benjo));
 
 
 

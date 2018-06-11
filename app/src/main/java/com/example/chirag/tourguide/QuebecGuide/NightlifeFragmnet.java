@@ -33,47 +33,47 @@ public class NightlifeFragmnet extends Fragment {
         final ArrayList<DataAttraction> dataAttractions = new ArrayList<>();
 
         dataAttractions.add(new DataAttraction(
-                getString(R.string.night_place_blvd),
-                getString(R.string.night_address_blvd),
-                3.1,
-                getString(R.string.night_contact_blvd),
-                R.drawable.blvd,
-                R.string.nightlife_blvd_des));
+                getString(R.string.night_place_drague_club),
+                getString(R.string.night_address_drague_club),
+                4.3,
+                getString(R.string.night_contact_drague_club),
+                R.drawable.dragueclub,
+                R.string.nightlife_drague_club));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.night_place_rouge_bar),
-                getString(R.string.night_address_rouge_bar),
-                2.9,
-                getString(R.string.night_contact_rouge_bar),
-                R.drawable.rouge,
-                R.string.nightlife_le_rouge_bar));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.night_place_jet_nightclub),
-                getString(R.string.night_address_jet_nightclub),
-                2.8,
-                getString(R.string.night_contact_jet_nightclub),
-                R.drawable.jetnightclub,
-                R.string.nightlife_jet_nightclub));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.night_place_after_hours),
-                getString(R.string.night_address_after_hours),
+                getString(R.string.night_place_bar_sacrilege),
+                getString(R.string.night_address_bar_sacrilege),
                 4.4,
-                getString(R.string.night_contact_after_hours),
-                R.drawable.stereoafterhour,
-                R.string.nightlife_after_hours));
+                getString(R.string.night_contact_bar_sacrilege),
+                R.drawable.barsacrilege,
+                R.string.nightlife_bar_sacrilege));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.night_place_muzique),
-                getString(R.string.night_address_muzique),
-                3.0,
-                getString(R.string.night_contact_muzique),
-                R.drawable.muzique,
-                R.string.nightlife_muzique));
+                getString(R.string.night_place_foubar),
+                getString(R.string.night_address_foubar),
+                4.3,
+                getString(R.string.night_contact_foubar),
+                R.drawable.lefou,
+                R.string.nightlife_foubar));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.night_place_club_649),
-                getString(R.string.night_address_club_649),
-                3.9,
-                getString(R.string.night_contact_club_649),
-                R.drawable.club649,
-                R.string.nightlife_club_649));
+                getString(R.string.night_place_la_piazz),
+                getString(R.string.night_address_la_piazz),
+                4.6,
+                getString(R.string.night_contact_la_piazz),
+                R.drawable.lapiazza,
+                R.string.nightlife_la_piazz));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.night_place_bar_ste_angele),
+                getString(R.string.night_address_bar_ste_angele),
+                4.0,
+                getString(R.string.night_contact_bar_ste_angele),
+                R.drawable.barsteangele,
+                R.string.nightlife_bar_ste_angele));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.night_place_societe_cigare),
+                getString(R.string.night_address_societe_cigare),
+                4.9,
+                getString(R.string.night_contact_societe_cigare),
+                R.drawable.societecigare,
+                R.string.nightlife_societe_cigare));
 
 
 

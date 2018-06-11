@@ -36,60 +36,68 @@ public class AttractionsFragment extends Fragment {
         final ArrayList<DataAttraction> dataAttractions = new ArrayList<>();
 
         dataAttractions.add(new DataAttraction(
-                getString(R.string.place_mount_royal),
-                getString(R.string.address_mount_royal),
+                getString(R.string.attr_place_chateau_fortenac),
+                getString(R.string.attr_address_chateau_fortenac),
                 4.6,
-                getString(R.string.contact_mount_royal),
-                R.drawable.mtroyal,
-                R.string.mount_royal));
+                getString(R.string.attr_contact_chateau_fortenac),
+                R.drawable.chateaufortenac,
+                R.string.attraction_chateau_fortenac));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.place_notre_dame_basilica),
-                getString(R.string.address_notre_dame_basilica),
+                getString(R.string.attr_place_montmorency_falls),
+                getString(R.string.attr_address_montmorency_falls),
+                4.6,
+                getString(R.string.attr_contact_montmorency_falls),
+                R.drawable.montmorencyfalls,
+                R.string.attraction_montmorency_falls));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.attr_place_citadelle_quebec),
+                getString(R.string.attr_address_citadelle_quebec),
+                3.6,
+                getString(R.string.attr_contact_citadelle_quebec),
+                R.drawable.citadelleneige,
+                R.string.attraction_citadelle_quebec));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.attr_place_petit_champlain),
+                getString(R.string.attr_address_petit_champlain),
                 4.7,
-                getString(R.string.contact_notre_dame_basilica),
-                R.drawable.notredam,
-                R.string.notre_dame_basilica));
+                getString(R.string.attr_contact_petit_champlain),
+                R.drawable.petitchamplain,
+                R.string.attraction_petit_champlain));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.place_monreal_biodome),
-                getString(R.string.address_montreal_biodome),
-                4.4,
-                getString(R.string.contact_montral_botanical_garden),
-                R.drawable.biodome,
-                R.string.montreal_biodome));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.place_montreal_botanical_garden),
-                getString(R.string.address_montreal_botanical_garden),
-                4.6,
-                getString(R.string.contact_montreal_botanical_garden),
-                R.drawable.botanicalgarden,
-                R.string.botanical_garden));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.place_port_of_montreal),
-                getString(R.string.address_port_of_montreal),
-                4.6,
-                getString(R.string.contact_port_of_montreal),
-                R.drawable.oldport,
-                R.string.port_of_montreal));
-        dataAttractions.add(new DataAttraction(
-                getString(R.string.place_olympic_stadium),
-                getString(R.string.address_olympic_stadium),
+                getString(R.string.attr_place_plains_abraham),
+                getString(R.string.attr_address_plains_abraham),
                 4.2,
-                getString(R.string.contact_olympic_stadium),
-                R.drawable.olympicstadium,
-                R.string.olympic_stadium));
+                getString(R.string.attr_contact_plains_abraham),
+                R.drawable.plainsabraham,
+                R.string.attraction_plains_abraham));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.place_royal_park),
-                getString(R.string.address_royal_park),
-                4.7,
-                getString(R.string.contact_royal_park),
-                R.drawable.mountroyalpark,
-                R.string.royal_park));
+                getString(R.string.attr_place_muse_civilisation),
+                getString(R.string.attr_address_muse_civilisation),
+                4.5,
+                getString(R.string.attr_contact_muse_civilisation),
+                R.drawable.museecivilisation,
+                R.string.attraction_muse_civilisation));
         dataAttractions.add(new DataAttraction(
-                getString(R.string.place_helen_island),
-                getString(R.string.address_helen_island),
-                4.0, "",
-                R.drawable.helensisland,
-                R.string.helen_park));
+                getString(R.string.attr_place_battlefiels_park),
+                getString(R.string.attr_address_battlefiels_park),
+                4.6,
+                getString(R.string.attr_contact_battlefiels_park),
+                R.drawable.battlefieldspark,
+                R.string.attraction_battlefiels_park));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.attr_place_aquarium_quebec),
+                getString(R.string.attr_address_aquarium_quebec),
+                4.3,
+                getString(R.string.attr_contact_aquarium_quebec),
+                R.drawable.aquariumquebec,
+                R.string.attraction_aquarium_quebec));
+        dataAttractions.add(new DataAttraction(
+                getString(R.string.attr_place_beaus_arts),
+                getString(R.string.attr_address_beaus_arts),
+                4.6,
+                getString(R.string.attr_contact_beaus_arts),
+                R.drawable.beausarts,
+                R.string.attraction_beaus_arts));
 
 
         DataAdapter adapter = new DataAdapter(getActivity(), dataAttractions);
@@ -104,7 +112,7 @@ public class AttractionsFragment extends Fragment {
 
                 DataAttraction data = dataAttractions.get(position);
 
-                intent.putExtra("data",data);
+                intent.putExtra("data", data);
 
                 startActivity(intent);
             }
