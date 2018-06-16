@@ -2,6 +2,7 @@ package com.example.chirag.tourguide.QuebecGuide;
 
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
@@ -9,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.chirag.tourguide.DataAdapter;
@@ -23,6 +25,7 @@ import java.util.ArrayList;
  */
 public class ShoppingFragment extends Fragment {
 
+    private Button button;
 
     public ShoppingFragment() {
         // Required empty public constructor
@@ -80,7 +83,6 @@ public class ShoppingFragment extends Fragment {
                 R.string.shopping_benjo));
 
 
-
         DataAdapter adapter = new DataAdapter(getActivity(), dataAttractions);
 
         ListView listView = rootView.findViewById(R.id.list);
@@ -99,7 +101,6 @@ public class ShoppingFragment extends Fragment {
             }
         });
 
-
-        return rootView;
+      return rootView;
     }
 }

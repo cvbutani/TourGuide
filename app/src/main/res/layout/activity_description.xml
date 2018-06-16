@@ -111,7 +111,7 @@
             android:layout_toRightOf="@id/phone_icon"
             android:background="@color/colorPrimary"
             android:textSize="16sp"
-            android:textColor="@android:color/white"/>
+            android:textColor="@android:color/white" />
 
         <Button
             android:id="@+id/call_phone"
