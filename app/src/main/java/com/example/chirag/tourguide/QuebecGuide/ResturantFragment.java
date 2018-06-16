@@ -90,8 +90,9 @@ public class ResturantFragment extends Fragment {
                 Intent intent = new Intent(getActivity(), DescriptionActivity.class);
 
                 DataAttraction data = dataAttractions.get(position);
-                intent.putExtra("data",data);
 
+                intent.putExtra("data",data);
+                intent.putExtra("title", "Restaurants");
                 startActivity(intent);
 
             }

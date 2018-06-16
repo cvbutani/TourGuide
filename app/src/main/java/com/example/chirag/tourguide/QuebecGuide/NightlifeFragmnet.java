@@ -90,7 +90,7 @@ public class NightlifeFragmnet extends Fragment {
                 DataAttraction data = dataAttractions.get(position);
 
                 intent.putExtra("data",data);
-
+                intent.putExtra("title","Nightlife");
                 startActivity(intent);
             }
         });

@@ -117,18 +117,9 @@ public class ResturantFragment extends Fragment {
                 Intent intent = new Intent(getActivity(), DescriptionActivity.class);
 
                 DataAttraction data = dataAttractions.get(position);
+
                 intent.putExtra("data",data);
-
-//                Bundle bundle = new Bundle();
-//
-//                bundle.putString(BundlePair.PLACE_NAME, data.getmPlaceName());
-//                bundle.putString(BundlePair.PLACE_ADDRESS, data.getmAddress());
-//                bundle.putInt(BundlePair.PLACE_IMAGE, data.getmImageResourceId());
-//                bundle.putDouble(BundlePair.PLACE_RATING, data.getmRating());
-//                bundle.putString(BundlePair.PLACE_PHONE, data.getmContact());
-//                bundle.putInt(BundlePair.PLACE_DESCRIPTION, data.getmDescription());
-
-
+                intent.putExtra("title", "Restaurants");
                 startActivity(intent);
 
             }

@@ -3,7 +3,9 @@ package com.example.chirag.tourguide.MontrealGuide;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -25,8 +27,13 @@ public class AttractionsFragment extends Fragment {
 
     public AttractionsFragment() {
         // Required empty public constructor
+
     }
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -105,6 +112,7 @@ public class AttractionsFragment extends Fragment {
                 DataAttraction data = dataAttractions.get(position);
 
                 intent.putExtra("data",data);
+                intent.putExtra("title", "Attractions");
 
                 startActivity(intent);
             }

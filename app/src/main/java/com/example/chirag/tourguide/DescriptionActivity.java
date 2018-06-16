@@ -22,6 +22,7 @@ public class DescriptionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_description);
 
         if (!getIntent().hasExtra("data")) return;
+        if (getIntent().hasExtra("title")) setTitle(getIntent().getStringExtra("title"));
 
         final DataAttraction attraction = (DataAttraction) getIntent().getSerializableExtra("data");
 
@@ -50,8 +51,10 @@ public class DescriptionActivity extends AppCompatActivity {
                 String name = attraction.getmAddress();
                 Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + name);
                 Intent mapIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-                mapIntent.setPackage("com.google.android.apps.maps");
-                startActivity(mapIntent);
+                // mapIntent.setPackage("com.google.android.apps.maps");
+                if (mapIntent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(mapIntent);
+                }
 
             }
         });
@@ -66,5 +69,7 @@ public class DescriptionActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
+
 }
